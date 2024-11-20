@@ -1,0 +1,170 @@
+body{
+    color: #4A628A ;
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+    color: #4A628A;
+    margin: 50px auto 0 auto;
+    font-size: 4rem;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+h2{
+    color: #4A628A;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+.top-container{
+    background-color: #B9E5E8 ;
+    position: relative;
+    padding-top: 100px;
+}
+.top-cloud{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.bottom-cloud{
+    position: absolute;
+    right: 10px;
+    
+
+}
+.middle-container{
+    margin: 100px 0;
+}
+
+.profile-image{
+    margin: 100px 0 0 10px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #7AB2D3;
+}
+
+
+.profile > p{
+    color: #0f1011;
+    font-family: "PT Serif", serif;
+    font-style: normal;
+    font-size: 1.6rem;
+    padding-bottom: 10px;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+hr {
+    border: dotted #B9E5E8 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+  }
+
+.grid-skills{
+    display: grid;
+    grid-template-columns: 50% 50%;
+ 
+
+}
+.Animation{
+    width: 20px;
+    height: 20px;
+}
+
+.WebDeveloping{
+    margin: 20px;
+
+
+}
+.WebDeveloping >h2{
+    color: #000000;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+
+}
+.Datascienve{
+    margin: 20px;
+
+}
+.Datascienve >h2{
+    color: #000000;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+
+}
+li{
+    display: block;
+    color: #4A628A;
+    font-family: "PT Serif", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1rem;
+    padding-bottom: 12px;
+}
+.contact-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#DFF2EB ;
+
+}
+h3{
+    color: #3f567d;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+}
+.contact-me > p{
+    color: #0f1011;
+    font-family: "PT Serif", serif;
+    font-style: normal;
+    font-size: 0.9rem;
+    padding-bottom: 10px;
+}
+.button{
+    height: auto;
+    width:auto;
+    background-color:#4A628A ;
+    border-radius: 10%;
+    margin: 20px;
+
+}
+.button > a{
+    color: #ededed;
+    font-family: "PT Serif", serif;
+    font-style: normal;
+    font-size: 2rem;
+    padding: 10px;
+    margin: 5px 5px;
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4A628A ;
+    padding: 0px;
+    margin: 0px;
+}
+.footer > a >img{
+    width: 100px;
+    height: 100px;
+
+}
